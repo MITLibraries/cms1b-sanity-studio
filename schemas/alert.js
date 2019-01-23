@@ -6,12 +6,14 @@ export default {
 		{
 			name: 'title',
 			title: 'Title',
+			description: 'The headline of the alert',
 			type: 'string'
 		},
 		{
 			name: 'description',
 			title: 'Description',
-			type: 'string'
+			description: 'A longer statement of the alert, providing context',
+			type: 'text'
 		},
 		{
 			name: 'startAt',
@@ -27,11 +29,6 @@ export default {
 			name: 'sitewide',
 			title: 'Show Alert Sitewide',
 			type: 'boolean'
-		},
-		{
-			name: 'publishedAt',
-			title: 'Published at',
-			type: 'datetime'
 		}
 	],
 	preview: {
