@@ -24,6 +24,8 @@ export default createSchema({
     alert,
     author,
     category,
+    expert,
+    location,
     // When added to this list, object types can be used as
     // { type: 'typename' } in other document schemas
     blockContent

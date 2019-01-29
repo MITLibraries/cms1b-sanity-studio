@@ -29,6 +29,12 @@ export default {
 			name: 'sitewide',
 			title: 'Show Alert Sitewide',
 			type: 'boolean'
+		},
+		{
+			name: 'location',
+			title: 'Related location(s)',
+			type: 'reference',
+			to: [{type: 'location'}]
 		}
 	],
 	preview: {
