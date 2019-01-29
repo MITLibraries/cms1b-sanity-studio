@@ -61,23 +61,6 @@ export default {
 			title: 'Open 24x7',
 			description: 'Is this location open 24x7?',
 			type: 'boolean'
-		},
-		{
-			name: 'sortname',
-			title: 'Sorted Name',
-			description: 'The name used for displaying experts in a sorted list - perhaps a last name',
-			type: 'string'
-		},
-		{
-			name: 'title',
-			title: 'Title',
-			description: 'The person-facing title for our expert - rather than an HR classification',
-			type: 'string'
-		},
-		{
-			name: 'cv',
-			title: 'CV',
-			type: 'file'
 		}
 	],
 	preview: {
