@@ -1,0 +1,54 @@
+Arguments: 
+  /usr/bin/node /usr/lib/node_modules/@sanity/cli/vendor/yarn install --json --non-interactive --ignore-engines --registry https://registry.npmjs.org
+
+PATH: 
+  /mnt/c/sites/cms1b-sanity-studio/node_modules/.bin:/mnt/c/sites/node_modules/.bin:/mnt/c/node_modules/.bin:/mnt/node_modules/.bin:/node_modules/.bin:/usr/bin:/usr/lib/node_modules/vendor:/home/mjbernha/wgtl/bin:/home/mjbernha/.local/bin:/home/mjbernha/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files/VanDyke Software/Clients:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath_target_113963109:/mnt/c/Program Files (x86)/MIT/Shared Files:/mnt/c/Windows/System32:/mnt/c/Windows:/mnt/c/Windows/System32/wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Program Files/MIT/Mirror/Distrib:/mnt/c/Program Files/MIT/Kerberos/bin:/mnt/c/php-7.2.10-Win32-VC15-x64:/mnt/c/Users/mjbernha/AppData/Roaming/Composer/vendor/bin:/mnt/c/Users/mjbernha:/mnt/c/Users/mjbernha/AppData/Local/Programs/Python/Python37/Scripts:/mnt/c/Users/mjbernha/AppData/Roaming/nvm:/mnt/c/Users/mjbernha/AppData/Roaming/nvm/v8.12.0:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/mjbernha/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/mjbernha/AppData/Roaming/npm:/mnt/c/Users/mjbernha/AppData/Roaming/Python/Python37/Scripts:/mnt/c/Users/mjbernha/vendor/bin:/snap/bin
+
+Yarn version: 
+  1.6.0
+
+Node version: 
+  9.11.2
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: EINVAL: invalid argument, copyfile '/home/mjbernha/.cache/yarn/v1/npm-@sanity/form-builder-0.140.2-7814359b908b53bd97cc9baa016d72882691ee4e/defs/part:@sanity.js' -> '/mnt/c/sites/cms1b-sanity-studio/node_modules/@sanity/form-builder/defs/part:@sanity.js'
+
+npm manifest: 
+  {
+    "name": "mitlibsanity",
+    "private": true,
+    "version": "1.0.0",
+    "description": "",
+    "main": "package.json",
+    "author": "Matthew Bernhardt <mjbernha@mit.edu>",
+    "license": "UNLICENSED",
+    "scripts": {
+      "start": "sanity start",
+      "test": "sanity check"
+    },
+    "keywords": [
+      "sanity"
+    ],
+    "dependencies": {
+      "@sanity/base": "^0.140.2",
+      "@sanity/components": "^0.140.2",
+      "@sanity/core": "^0.140.0",
+      "@sanity/default-layout": "^0.140.2",
+      "@sanity/default-login": "^0.140.0",
+      "@sanity/desk-tool": "^0.140.2",
+      "prop-types": "^15.6",
+      "react": "^16.2",
+      "react-dom": "^16.2",
+      "react-icons": "^3.3.0"
+    },
+    "devDependencies": {}
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
