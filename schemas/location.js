@@ -57,7 +57,7 @@ export default {
 			type: 'boolean'
 		},
 		{
-			name: '24x7',
+			name: 'open24x7',
 			title: 'Open 24x7',
 			description: 'Is this location open 24x7?',
 			type: 'boolean'
