@@ -36,10 +36,15 @@ export default {
 		{
 			name: 'picture',
 			title: 'Picture',
+			description: 'A headshot or other avatar for this expert',
 			type: 'image',
 			options: {
 				hotspot: true,
 			},
+			fields: [
+				{name: 'caption', type: 'string', title: 'Caption', description: 'Used for the alternative text'},
+				{name: 'foo', type: 'string', title: 'Foo', description: 'Please just say "bar"'}
+			]
 		},
 		{
 			name: 'cv',
