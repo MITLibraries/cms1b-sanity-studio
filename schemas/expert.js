@@ -42,8 +42,8 @@ export default {
 				hotspot: true,
 			},
 			fields: [
-				{name: 'caption', type: 'string', title: 'Caption', description: 'Used for the alternative text'},
-				{name: 'foo', type: 'string', title: 'Foo', description: 'Please just say "bar"'}
+				{name: 'caption', type: 'string', title: 'Caption', description: 'This is a descriptive caption, not the alt text'},
+				{name: 'alt', type: 'string', title: 'Alternate text', description: 'This will be used for the alternative text'}
 			]
 		},
 		{
