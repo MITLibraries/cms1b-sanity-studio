@@ -36,10 +36,15 @@ export default {
 		{
 			name: 'picture',
 			title: 'Picture',
+			description: 'A headshot or other avatar for this expert',
 			type: 'image',
 			options: {
 				hotspot: true,
 			},
+			fields: [
+				{name: 'caption', type: 'string', title: 'Caption', description: 'This is a descriptive caption, not the alt text'},
+				{name: 'alt', type: 'string', title: 'Alternate text', description: 'This will be used for the alternative text'}
+			]
 		},
 		{
 			name: 'cv',
