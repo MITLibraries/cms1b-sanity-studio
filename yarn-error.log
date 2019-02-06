@@ -14,7 +14,7 @@ Platform:
   linux x64
 
 Trace: 
-  Error: EINVAL: invalid argument, copyfile '/home/mjbernha/.cache/yarn/v1/npm-@sanity/form-builder-0.140.4-16363c1626a41d98acd53e9f04355b361a55d6fe/defs/part:@sanity.js' -> '/mnt/c/sites/cms1b-sanity-studio/node_modules/@sanity/form-builder/defs/part:@sanity.js'
+  Error: EINVAL: invalid argument, copyfile '/home/mjbernha/.cache/yarn/v1/npm-@sanity/form-builder-0.140.7-9f4ae51f31cdba363c55b3fab76c0f435f0dd81d/defs/part:@sanity.js' -> '/mnt/c/sites/cms1b-sanity-studio/node_modules/@sanity/form-builder/defs/part:@sanity.js'
 
 npm manifest: 
   {
@@ -39,6 +39,7 @@ npm manifest:
       "@sanity/default-layout": "^0.140.4",
       "@sanity/default-login": "^0.140.3",
       "@sanity/desk-tool": "^0.140.4",
+      "@sanity/google-maps-input": "^0.140.7",
       "prop-types": "^15.6",
       "react": "^16.2",
       "react-dom": "^16.2",
